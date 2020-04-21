@@ -8,5 +8,10 @@ Các phương thức vòng đời được gọi khi ứng dụng đang chạy v
 - Người dùng bấm nút home (lần lượt) là: onPause -> onStop.
 - Người dùng mở lại (lần lượt) là: OnRestart -> onStart -> onResume
 
+Câu 6: Trả lời:
+- Thông tin của ứng dụng để khôi phục lại trạng thái hiển thị của ứng dụng khi chạy lại ứng dụng
+thì cần phải thực hiện trong phương thức vòng đời: onPause().
+- Vì khi người dùng quay lại onPause() sẽ quay trở lại onResume() và thực hiện lại Activity. Và onPause() thường được
+sử dụng khi lưu dữ liệu, giải phóng tài nguyên.
 
 
