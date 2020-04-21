@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         txtTG = findViewById(R.id.txtTG);
         SimpleDateFormat spf = new SimpleDateFormat("HH:mm:ss");
         String strDate = spf.format(new Date());
+        txtTG.setText(strDate);
     }
 
     @Override
