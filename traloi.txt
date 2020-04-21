@@ -1,0 +1,5 @@
+Câu 4: Trả lời
+- Các phương thức vòng đời được gọi khi ứng dụng đang chạy mà người dùng nhấn nút back lần lượt là:
+    onPause -> onStop -> onDestroy.
+- Khi người dùng mở lại ứng dụng thì các phương thức vòng đời được gọi lần lượt là:
+    onCreate -> onStart -> onResume.
