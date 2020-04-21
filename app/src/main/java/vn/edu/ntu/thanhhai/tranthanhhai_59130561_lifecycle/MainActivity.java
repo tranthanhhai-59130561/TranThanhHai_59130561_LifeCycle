@@ -27,6 +27,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d("LifeCycle", "onPause Call");
+
+    }
+
+    @Override
     protected void onStop() {
         super.onStop();
         Log.d("LifeCycle", "onStop Call");
